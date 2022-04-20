@@ -160,15 +160,15 @@ option + arrow key in MacOS
 
 -   [ ] 拼錯字嗎？你不尷尬就換別人尷尬了
 1. Extension: [Code Spelling Checker for VSCode](https://github.com/streetsidesoftware/vscode-spell-checker)
-	> ![[bandicam 2022-04-21 01-50-23-805.png]]
-	> ![[bandicam 2022-04-21 01-50-34-860.png]]
-	> ![[bandicam 2022-04-21 01-50-36-684.png]]
-	> ![[bandicam 2022-04-21 01-54-26-558.png]]
-	> ![[bandicam 2022-04-21 01-54-32-230.png]]
-	> ![[bandicam 2022-04-21 01-54-51-902.png]]
-	> ![[bandicam 2022-04-21 01-54-55-318.png]]
-	> ![[bandicam 2022-04-21 01-54-57-846.png]]
-	> ![[bandicam 2022-04-21 01-55-20-176.png]]
+	>+ ![[bandicam 2022-04-21 01-50-23-805.png]]
+	>+ ![[bandicam 2022-04-21 01-50-34-860.png]]
+	>+ ![[bandicam 2022-04-21 01-50-36-684.png]]
+	>+ ![[bandicam 2022-04-21 01-54-26-558.png]]
+	>+ ![[bandicam 2022-04-21 01-54-32-230.png]]
+	>+ ![[bandicam 2022-04-21 01-54-51-902.png]]
+	>+ ![[bandicam 2022-04-21 01-54-55-318.png]]
+	>+ ![[bandicam 2022-04-21 01-54-57-846.png]]
+	>+ ![[bandicam 2022-04-21 01-55-20-176.png]]
 
 - [ ] 縮排辨識
 [indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow)
@@ -208,7 +208,7 @@ option + arrow key in MacOS
 - Click Manage icon (= Gear icon at the bottom left ) -> User snippet -> **javascript.json**
 
 在`javascript.json`檔案中加入參考 Example 所做的以下 `Query Selector` 的自訂JSON片段
-```json
+```jsx
 // javascript.json
 
 {
