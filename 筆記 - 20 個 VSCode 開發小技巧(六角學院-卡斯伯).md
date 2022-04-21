@@ -169,7 +169,7 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 
 #### 為括號上色
 - Extension: Braket Pair Colorizer 2 (Deprecated) - VSCode 已內建，因此這個應用程式棄用了
-- 使用 **[VSocde 內建 (August 2021 (version 1.60))]((https://code.visualstudio.com/updates/v1_60#_high-performance-bracket-pair-colorization))**
+- 使用 **[VSocde 內建 (August 2021 (version 1.60))](https://code.visualstudio.com/updates/v1_60#_high-performance-bracket-pair-colorization)**
 	- 輸入 `Ctrl + ,` 開啟設定  **File -> Preferences ->settings.json -> 加上 High performance bracket pair colorization提到的 json**
 
 ```jsx
