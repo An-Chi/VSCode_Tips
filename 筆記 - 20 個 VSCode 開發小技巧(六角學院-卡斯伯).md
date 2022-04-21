@@ -10,9 +10,9 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 #### 筆記內容
 主要參考自 六角學院卡斯伯老師的教學
 20 個 VSCode 開發小技巧，讓你 Coding 三倍速！
-部落格：[](https://www.casper.tw/)[https://www.casper.tw/](https://www.casper.tw/)
-文件連結：[](https://hex.school/w5FJv)[https://hex.school/w5FJv](https://hex.school/w5FJv)
-video：[](https://youtu.be/LOjUnXk_TNU)[https://youtu.be/LOjUnXk_TNU](https://youtu.be/LOjUnXk_TNU)
+- 部落格：[](https://www.casper.tw/)[https://www.casper.tw/](https://www.casper.tw/)
+- 文件連結：[](https://hex.school/w5FJv)[https://hex.school/w5FJv](https://hex.school/w5FJv)
+- video：[](https://youtu.be/LOjUnXk_TNU)[https://youtu.be/LOjUnXk_TNU](https://youtu.be/LOjUnXk_TNU)
 
 ---
 
@@ -27,6 +27,13 @@ video：[](https://youtu.be/LOjUnXk_TNU)[https://youtu.be/LOjUnXk_TNU](https://y
 
 2. 安裝工具之後，試用後不符合自己需求，那就直接移除掉。
 
+
+#### 在簡單的專案都要用伺服器的方式開啟
+不要直接將專案的網頁檔案直接拖曳到瀏覽器，有可能(上線時)會出錯
+使用 **Live Server** 的 **GO Live**
+
+
+---
 
 ### Recording Keys
 >**`Ctrl + K , Ctrl + S` -> Keyboard Shortcuts**
@@ -53,29 +60,36 @@ video：[](https://youtu.be/LOjUnXk_TNU)[https://youtu.be/LOjUnXk_TNU](https://y
 
 可以另外安裝 [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)，其快捷鍵和原始設定不太一樣。
 
+---
 
 #### `Ctrl + P`  `cmd + p` select file
-Type `file_name` + `@` that can lead you to selected element(symbols)
-Type @ can lead you to selected element in current file.
+1. 在輸入框中輸入  `file_name` + `@` + `element/function/variable name` 可以跳到該名稱所在位置(symbols)
+2.  在輸入框中輸入  `@` + `element/function/variable name` 可以跳到**目前檔案**該名稱所在位置(symbols)
 
+---
 
+#### `Ctrl+Shift+P`  `cmd + shift + p`  
+>show command platte
 
-
-#### `Ctrl+Shift+P`  `cmd + shift + p`  show command platte
+---
 
 #### `alt` + `arrow key` 可以移動目前所在的那行程式碼
 >`option` + `arrow key`
+
+---
 
 #### `Windows + Arrow key` 
 >Windows Shortcut
 可以移動 VSCode 整個介面(或其他軟體、瀏覽器) 在電腦畫面上的位置、最小化、最大化
 
+---
+
 #### `Ctrl` + `RightArrow` / `LeftArrow`  可以跳下一個單字
+
+---
 
 #### USE Emmet
 >[Cheat Sheet | Emmet](https://docs.emmet.io/cheat-sheet/)
-
-### 程式碼的頭尾{ }
 
 ```html
     <!--nav>div>ui>li*5-->
@@ -92,12 +106,7 @@ Type @ can lead you to selected element in current file.
     </nav>
 ```
 
-
-#### 在簡單的專案都要用伺服器的方式開啟
-不要直接將專案的網頁檔案直接拖曳到瀏覽器，有可能(上線時)會出錯
-使用 **Live Server** 的 **GO Live**
-
-
+---
 
 ####  在 JS 片段使用 emmet
 `Ctrl` + `,`  **開啟設定  settings 工具  -> settings json -> 貼上下方的  json 片段**, 這樣就可以再JS檔案中使用 Emmet，有益於VueJS, ReactJS開發
@@ -112,6 +121,8 @@ Type @ can lead you to selected element in current file.
 "emmet.triggerExpansionOnTab": true,
 ```
 
+
+---
 
 ####  tab, space：轉換法
 1. 2spaces -> 主流
@@ -130,26 +141,32 @@ Type @ can lead you to selected element in current file.
 	>在檔案中添加.[prettierrc.yaml 的設定檔案](https://prettier.io/docs/en/options.html)(可以設定每個人的格式化)
 
 
-
+---
 
 #### 專案同文字多選
 1. 選取文字後，再按 `Ctrl + D` 會把選取的相同文字，逐一選取反白後，再一次一起修改
 2. 選取文字後，再按 `F2` 就可以修改文字，會連同相同的文字一併修改
 
 
+---
 
 #### 程式碼片段移動
 alt + arrow UP/DOWN key can move current line
 option + arrow key in MacOS
 會跟著縮排移動
 
+---
+
 #### 拼字檢查
 1. Extension: [Code Spelling Checker for VSCode](https://github.com/streetsidesoftware/vscode-spell-checker)
 
 
+---
+
 ####  縮排辨識
 [indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow)
 
+---
 
 #### 為括號上色
 - Braket Pair Colorizer 2 (Deprecated) - VSCode 已內建，因此這個應用程式棄用了
@@ -164,9 +181,9 @@ option + arrow key in MacOS
 
 - 自訂括號顏色(待補圖)
 	1. settings.json 搜尋 Bracket 
-	2. 找到 Editor > Bracket Pair Colorization: Enabled
-	3. 點選 Workbench: Color Customizations
-	4. 跳到 Color Customizations 點選 Edit in settings.json 
+	2. 找到 Editor > `Bracket Pair Colorization: Enabled`
+	3. 點選 `Workbench: Color Customizations`
+	4. 跳到 Color Customizations 點選 `Edit in settings.json` 
 	5. 輸入 Bracket 在選單中找到 `"editorBracketHighlight.foreground1"` ~ `        "editorBracketHighlight.foreground6` 可設定六層顏色。
 
 
@@ -177,7 +194,7 @@ option + arrow key in MacOS
 >+ [VSCode: Bracket Pair Colorization Now Native | Justin James](https://digitaldrummerj.me/vscode-bracket-pair-colorization/)
 >+ [VS Code 開啟效能提升 1 萬倍的「內建」bracket pair colorization - Code and Me](https://blog.kyomind.tw/bracket-pair-colorization/)
 	
-
+---
 
 
 ### Code Snippet
@@ -222,7 +239,7 @@ option + arrow key in MacOS
 ```
 
 
-
+---
 
 #### 選取片段
 1. `Ctrl + Shift` + Mouse Click
@@ -230,12 +247,13 @@ option + arrow key in MacOS
 3. search `expand selection` When `editorTextFocus`
 	>Shortcut: `Shift + Alt + RightArrow`
 
+---
 
 #### 複製片段
 `Shift + Alt + UpArrow`   會把已複製的選取片段下方，貼上同樣片段
 `Shift + Alt + DownArrow`  會把已複製的選取片段上方，貼上同樣片段
 
-
+---
 
 #### 片段程式碼抽取成函式
 1. 選取要重構的程式碼片段，鍵盤按 `Ctrl + .` -> Extract to in global scope ->語義化命名新的 function name -> Enter (參數再局部修改)
@@ -477,6 +495,9 @@ removeProductBtn.addEventListener("click", () => {
 ```
 
 
+---
+
+
 #### 註解最佳化技巧
 >**跳出提示**
 
@@ -554,6 +575,9 @@ export function sumTotal() {
 ![[bandicam 2022-04-21 04-59-56-276.png]]
 
 
+---
+
+
 #### 多層巢狀 HTML 元件重新命名
 
 ```html
@@ -575,7 +599,7 @@ export function sumTotal() {
     </div>
 ```
 
-選取要改名的element，按 F2 改名稱，
+**選取要改名的element，按 F2 改名稱，**
 ```html
 
     <div>
@@ -598,7 +622,7 @@ export function sumTotal() {
 ```
 
 
-GitHub Copilot
+
 
 
 ### References
