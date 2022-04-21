@@ -629,9 +629,3 @@ export function sumTotal() {
 
 
 
-### References
-- [20 個 VSCode 開發小技巧，讓你 Coding 三倍速！](https://www.youtube.com/watch?v=LOjUnXk_TNU) 
-- [共筆文件 | 20 個 VSCode 開發小技巧，讓你 Coding 三倍速！] https://bejewled-air-4cb.notion.site/20-VSCode-Coding-6e35278e50a0488faa027461940240f0
-
-
-
