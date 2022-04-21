@@ -109,7 +109,7 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 ---
 
 ####  在 JS 片段使用 emmet
-`Ctrl` + `,`  **開啟設定  settings 工具  -> settings json -> 貼上下方的  json 片段**, 這樣就可以再JS檔案中使用 Emmet，有益於VueJS, ReactJS開發
+`Ctrl` + `,`  **開啟設定  settings 工具  -> settings json -> 貼上下方的  json 片段**, 這樣就可以在JS檔案中使用 Emmet，有益於VueJS, ReactJS開發
 >在JS檔案中，輸入 `p` + **tab key** 會變成  `<p></p>`
 
 ```jsx
