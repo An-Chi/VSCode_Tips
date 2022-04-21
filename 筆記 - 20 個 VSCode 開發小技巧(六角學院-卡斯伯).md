@@ -243,8 +243,8 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 
 #### 選取片段
 1. `Ctrl + Shift` + Mouse Click
-2. `Ctrl + K  Ctrl + S` 開啟 Keyboard Shortcuts 或 **File -> Preferences -> Keyboard Shortcuts **
-3. search `expand selection` When `editorTextFocus`
+2. `Ctrl + K  Ctrl + S` 開啟 Keyboard Shortcuts 或 **File -> Preferences -> Keyboard Shortcuts**
+1. search `expand selection` When `editorTextFocus`
 	>Shortcut: `Shift + Alt + RightArrow`
 
 ---
