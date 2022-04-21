@@ -509,7 +509,7 @@ removeProductBtn.addEventListener("click", () => {
 
  *
 
- * @param {} num 
+ * @param {*} num 
 
  */
 
