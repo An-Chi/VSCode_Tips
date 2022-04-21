@@ -197,8 +197,9 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 
 
 ### Code Snippet
-- Extension:  [VS Code Snippet Generator](https://marketplace.visualstudio.com/items?itemName=dkultasev.vs-code-snippet-generator)
-- VsCode 內建方式，Click **Manage icon (= Gear icon at the bottom left ) -> User snippet -> javascript.json**
+>兩種方式
+1. 另外安裝 Extension:  [VS Code Snippet Generator](https://marketplace.visualstudio.com/items?itemName=dkultasev.vs-code-snippet-generator)
+2. 使用 VsCode 內建方式，Click **Manage icon (= Gear icon at the bottom left ) -> User snippet -> javascript.json**
 
 在`javascript.json`檔案中加入參考 Example 所做的以下 `Query Selector` 的自訂JSON片段
 ```jsx
