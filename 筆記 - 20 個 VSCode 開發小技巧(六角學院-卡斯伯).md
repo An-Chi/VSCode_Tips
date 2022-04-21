@@ -4,7 +4,7 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 ---
 
 ### 已安裝過的 VSCode 
-觀看影片之前，卡斯伯老師有在社團提醒 如果有裝了一堆擴充套件卻不知道有什麼用的症狀，建議先移除 VSCode ( [Clean uninstall VSCode]((https://code.visualstudio.com/docs/setup/uninstall#_clean-uninstall)))
+觀看影片之前，卡斯伯老師有在社團提醒 如果有裝了一堆擴充套件卻不知道有什麼用的症狀，建議先移除 VSCode ( [Clean uninstall VSCode](https://code.visualstudio.com/docs/setup/uninstall#_clean-uninstall)) )
 
 
 #### 筆記內容
