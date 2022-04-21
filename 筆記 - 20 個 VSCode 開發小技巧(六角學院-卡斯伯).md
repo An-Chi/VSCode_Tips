@@ -125,19 +125,19 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 ---
 
 ####  tab, space：轉換法
-1. 2spaces -> 主流
+##### 1. 2spaces -> 主流
 >先轉定位點 **convert indentation to Tabs -> Indent Using Space: 2 -> convert indentation to Spaces**
 
 **可以設定預設值，就不用每次開新檔案就要再設定一次**
 
-2. 4spaces
-3. tab
-4. Extension: Prettier - Code formatter
-		1. 開發專案中，每個人格式不一致，可使用 Prettier - Code formatter 設定存檔轉換成同一個規範格式，這樣在使用Git 版控時就不會時常發生衝突。
-		2. 有安裝  **Extension: [Prettier - Code formatter]( https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**，`Ctrl` + `Shift` + `P` 輸入 `format`-> **Format Document... 文件格式化方式**
-		3. MacOS : `alt + shift + f` 會格式化在 prettier 中設定的格式
-		4. settings.json -> 加入 `"prettier.singleQuote": true`，就可以將比如 `console.log("xxx")` 轉成 `console.log('xxx')`
-		5. 在檔案中添加.[prettierrc.yaml 的設定檔案](https://prettier.io/docs/en/options.html)(可以設定每個人的格式化)
+##### 2. 4spaces
+##### 3. tab
+##### 4. Extension: Prettier - Code formatter
+1. 開發專案中，每個人格式不一致，可使用 Prettier - Code formatter 設定存檔轉換成同一個規範格式，這樣在使用Git 版控時就不會時常發生衝突。
+2. 有安裝  **Extension: [Prettier - Code formatter]( https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**，`Ctrl` + `Shift` + `P` 輸入 `format`-> **Format Document... 文件格式化方式**
+3. MacOS : `alt + shift + f` 會格式化在 prettier 中設定的格式
+4. settings.json -> 加入 `"prettier.singleQuote": true`，就可以將比如 `console.log("xxx")` 轉成 `console.log('xxx')`
+5. 在檔案中添加.[prettierrc.yaml 的設定檔案](https://prettier.io/docs/en/options.html)(可以設定每個人的格式化)
 
 
 ---
