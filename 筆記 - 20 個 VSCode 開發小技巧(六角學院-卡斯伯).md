@@ -507,9 +507,9 @@ removeProductBtn.addEventListener("click", () => {
 
 /**
 
- * function addToCart
+ *
 
- * @param {Number} num - Parameter num is Product ID
+ * @param {} num 
 
  */
 
