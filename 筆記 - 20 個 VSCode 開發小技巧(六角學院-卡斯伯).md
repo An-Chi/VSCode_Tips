@@ -164,14 +164,14 @@ option + arrow key in MacOS
 ---
 
 ####  縮排辨識
-[indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow)
+1. Extension: [indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow)
 
 ---
 
 #### 為括號上色
-- Braket Pair Colorizer 2 (Deprecated) - VSCode 已內建，因此這個應用程式棄用了
-- 使用 VSocde 內建 (August 2021 (version 1.60))
-	`Ctrl + ,` 或  開啟設定>**File -> Preferences - ->settings json -> 加上 High performance bracket pair colorization提到的 json
+- Extension: Braket Pair Colorizer 2 (Deprecated) - VSCode 已內建，因此這個應用程式棄用了
+- 使用 **[VSocde 內建 (August 2021 (version 1.60))]((https://code.visualstudio.com/updates/v1_60#_high-performance-bracket-pair-colorization))**
+	- 輸入 `Ctrl + ,` 開啟設定  **File -> Preferences - ->settings json -> 加上 High performance bracket pair colorization提到的 json**
 
 ```jsx
 	"editor.bracketPairColorization.enabled": true
