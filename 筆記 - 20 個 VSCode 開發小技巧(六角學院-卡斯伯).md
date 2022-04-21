@@ -74,7 +74,7 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 ---
 
 #### `alt` + `arrow key` 可以移動目前所在的那行程式碼
->`option` + `arrow key`
+>MacOS: `option` + `arrow key`
 
 ---
 
@@ -126,7 +126,7 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 
 ####  tab, space：轉換法
 1. 2spaces -> 主流
->先轉定位點 convert indentation to Tabs -> Indent Using Space: 2 -> convert indentation to Spaces
+>先轉定位點 **convert indentation to Tabs -> Indent Using Space: 2 -> convert indentation to Spaces**
 
 **可以設定預設值，就不用每次開新檔案就要再設定一次**
 
@@ -151,8 +151,8 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 ---
 
 #### 程式碼片段移動
-alt + arrow UP/DOWN key can move current line
-option + arrow key in MacOS
+`alt` + `UpArrow` / `DownArrow` key 搬移目前該行程式碼
+>MacOS: `option` + `UpArrow` / `DownArrow` key.
 會跟著縮排移動
 
 ---
@@ -171,7 +171,7 @@ option + arrow key in MacOS
 #### 為括號上色
 - Extension: Braket Pair Colorizer 2 (Deprecated) - VSCode 已內建，因此這個應用程式棄用了
 - 使用 **[VSocde 內建 (August 2021 (version 1.60))]((https://code.visualstudio.com/updates/v1_60#_high-performance-bracket-pair-colorization))**
-	- 輸入 `Ctrl + ,` 開啟設定  **File -> Preferences - ->settings json -> 加上 High performance bracket pair colorization提到的 json**
+	- 輸入 `Ctrl + ,` 開啟設定  **File -> Preferences ->settings.json -> 加上 High performance bracket pair colorization提到的 json**
 
 ```jsx
 	"editor.bracketPairColorization.enabled": true
