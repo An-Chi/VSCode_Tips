@@ -250,8 +250,8 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 ---
 
 #### 複製片段
-`Shift + Alt + UpArrow`   會把已複製的選取片段下方，貼上同樣片段
-`Shift + Alt + DownArrow`  會把已複製的選取片段上方，貼上同樣片段
+1. `Shift + Alt + UpArrow`   會把已複製的選取片段下方，貼上同樣片段
+2. `Shift + Alt + DownArrow`  會把已複製的選取片段上方，貼上同樣片段
 
 ---
 
@@ -576,7 +576,7 @@ export function sumTotal() {
 }
 ```
 
-![[bandicam 2022-04-21 04-59-56-276.png]]
+
 
 
 ---
