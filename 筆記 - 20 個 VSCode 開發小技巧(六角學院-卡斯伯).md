@@ -504,13 +504,17 @@ removeProductBtn.addEventListener("click", () => {
 **JS 文件格式註解**  -> 輸入`/` + `**` 就會自動生成
 ```javascript
  
-
+// 無參數
 /**
-
  *
+ * 
+ */
 
- * @param {*} num 
 
+//有參數
+/**
+ *
+ * @param {*} num  //此行是在 function addToCart(num) 上方生成
  */
 
 
