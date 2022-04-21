@@ -1,5 +1,15 @@
+---
+tags: VSCode Tips
+title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
+---
 
-#### 20 個 VSCode 開發小技巧，讓你 Coding 三倍速！
+### 已安裝過的 VSCode 
+觀看影片之前，卡斯伯老師有在社團提醒 如果有裝了一堆擴充套件卻不知道有什麼用的症狀，建議先移除 VSCode ( [Clean uninstall VSCode]((https://code.visualstudio.com/docs/setup/uninstall#_clean-uninstall)))
+
+
+#### 筆記內容
+主要參考自 六角學院卡斯伯老師的教學
+20 個 VSCode 開發小技巧，讓你 Coding 三倍速！
 部落格：[](https://www.casper.tw/)[https://www.casper.tw/](https://www.casper.tw/)
 文件連結：[](https://hex.school/w5FJv)[https://hex.school/w5FJv](https://hex.school/w5FJv)
 video：[](https://youtu.be/LOjUnXk_TNU)[https://youtu.be/LOjUnXk_TNU](https://youtu.be/LOjUnXk_TNU)
@@ -7,68 +17,60 @@ video：[](https://youtu.be/LOjUnXk_TNU)[https://youtu.be/LOjUnXk_TNU](https://y
 ---
 
 
-觀看影片之前，卡斯伯老師有在社團提醒 如果有裝了一堆擴充套件卻不知道有什麼用的症狀，建議先移除(clean uninstall) VSCode。
+### VSCode 筆記待補
+- [ ] 個人使用的介面是英文版的，紀錄VSCode 或快捷鍵都是英文，中文之後再補充
+- [ ] 操作附圖說明
 
-- Uninstall VSCode
-
-主要參考自 六角學院卡斯伯老師的 Video
-[20 個 VSCode 開發小技巧，讓你 Coding 三倍速！](https://www.youtube.com/watch?v=LOjUnXk_TNU)，並記錄一些自己已知的熱捷鍵 
-
-### VSCode 介面
->Language: English
-紀錄選單或是
 
 ### 使用 VSCode 的好習慣
 1. 裝任何工具(Extensions)之前，先確保自己知道此工具是要做什麼的，否則一旦不常使用或是用不到的工具裝太多，只會佔電腦空間(記憶體、硬碟空間)
 
 2. 安裝工具之後，試用後不符合自己需求，那就直接移除掉。
 
-UI Lang: English - non Chinese
+
 ### Recording Keys
 >**`Ctrl + K , Ctrl + S` -> Keyboard Shortcuts**
 >**File -> Preferences -> Keyboard Shortcuts**
-![[bandicam 2022-04-20 21-54-35-744.png]]
-![[bandicam 2022-04-20 22-01-38-970.png]]
+
+
+
+#### 待整理表格
 
 |Windows|MacOS| description |
 |---------|-----|--------------- |
-|Ctrl + N |  Cmd + N | New File|
-|Ctrl + K -> M|Cmd+K -> M |select a language|
-|! then tab|! then tab|generate HTML DOCTYPE|
-|Ctrl + Mouse Click|Cmd + Mouse Click|Follow link|
-|Ctrl + tab ||Switch file|
-|Ctrl + p|cmd + p|select file|
-|Ctrl+Shift+P|cmd + shift + p||
-| Ctrl + \ |cmd + \| split Vertically|
+|`Ctrl` + `N` |  `Cmd` + `N` | New File|
+|`Ctrl` + `K` -> `M` | `Cmd` + `K` -> `M` |select a language|
+|`!`  `tab`|`!`  `tab`| create a basic HTML DOCTYPE structure|
+|`Ctrl` + Mouse Click|`Cmd` + Mouse Click|Follow link|
+|`Ctrl` + `tab` ||Switch file|
+|`Ctrl` + `p` | `cmd` + `p` |select file|
+|`Ctrl` + `Shift` + `P` | `cmd` + `shift` + `p`||
+| `Ctrl` + `\` | `cmd` + `\` | split Vertically|
 ||cmd + K...M||
 ||cmd + L||
 ||cmd + /||
 |Ctrl+K -> W||Close Current Panel|
 
-可以另外安裝 [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)，其快捷鍵和原始設定不一樣。
+可以另外安裝 [Atom Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.atom-keybindings)，其快捷鍵和原始設定不太一樣。
 
 
 #### `Ctrl + P`  `cmd + p` select file
-![[bandicam 2022-04-20 22-41-37-254.png]]
-
-Type file_name + @  can lead you to selected element(symbols)
-![[bandicam 2022-04-20 23-11-30-833.png]]
-
-
+Type `file_name` + `@` that can lead you to selected element(symbols)
 Type @ can lead you to selected element in current file.
 
+
+
+
 #### `Ctrl+Shift+P`  `cmd + shift + p`  show command platte
-![[bandicam 2022-04-20 22-41-46-713.png]]
 
-Command + Shift 
-Ctrl + Shift
+#### `alt` + `arrow key` 可以移動目前所在的那行程式碼
+>`option` + `arrow key`
 
-alt + arrow key can move current line
-option + arrow key in MacOS
+#### `Windows + Arrow key` 
+>Windows Shortcut
+可以移動 VSCode 整個介面(或其他軟體、瀏覽器) 在電腦畫面上的位置、最小化、最大化
 
-Windows + Arrow key
-
-Ctrl + Arrow key  可以跳下一個單字
+#### `Ctrl` + `RightArrow` / `LeftArrow`  可以跳下一個單字
 
 #### USE Emmet
 >[Cheat Sheet | Emmet](https://docs.emmet.io/cheat-sheet/)
@@ -78,39 +80,28 @@ Ctrl + Arrow key  可以跳下一個單字
 ```html
     <!--nav>div>ui>li*5-->
 	<nav>
-
         <div>
-
             <ui>
-
                 <li></li>
-
                 <li></li>
-
                 <li></li>
-
                 <li></li>
-
                 <li></li>
-
             </ui>
-
         </div>
-
     </nav>
 ```
 
 
--   [ ] 在簡單的專案都要用伺服器的方式開啟
+#### 在簡單的專案都要用伺服器的方式開啟
 不要直接將專案的網頁檔案直接拖曳到瀏覽器，有可能(上線時)會出錯
-使用Live Server 的 GO Live
+使用 **Live Server** 的 **GO Live**
 
-HTML裡 輸入 `lorem` 假字
 
--   [ ] 在 JS 片段使用 emmet
-Ctrl + "," 開啟設定settings 工具 ->settings json ->add following json, then you can use Emmet in JS file, it's good for React and Vue development
-輸入 `p` + **tab key** 會變成  `<p></p>`
 
+####  在 JS 片段使用 emmet
+`Ctrl` + `,`  **開啟設定  settings 工具  -> settings json -> 貼上下方的  json 片段**, 這樣就可以再JS檔案中使用 Emmet，有益於VueJS, ReactJS開發
+>在JS檔案中，輸入 `p` + **tab key** 會變成  `<p></p>`
 
 ```jsx
 "emmet.includeLanguages": {
@@ -122,12 +113,7 @@ Ctrl + "," 開啟設定settings 工具 ->settings json ->add following json, the
 ```
 
 
-
-
-
-
-
--   [ ] tab, space：轉換大法
+####  tab, space：轉換法
 1. 2spaces -> 主流
 >先轉定位點 convert indentation to Tabs -> Indent Using Space: 2 -> convert indentation to Spaces
 
@@ -137,62 +123,53 @@ Ctrl + "," 開啟設定settings 工具 ->settings json ->add following json, the
 2. 4spaces
 3. tab
 4. Extension: Prettier - Code formatter
->格式不一致，可使用這個 extension 
-5. 或是使用 Ctrl + Shift + P 輸入 format ->Format Document 或  `alt + shift + f`
-6. 有安裝  **Extension: [Prettier - Code formatter]( https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**，Ctrl + Shift + P 輸入 format -> **Format Document...** 文件格式化方式
+>開發專案中，每個人格式不一致，可使用這個 extension 設定存檔轉換成同一個規範格式，這樣在使用Git 版控時就不會時常發生衝突。
+>有安裝  **Extension: [Prettier - Code formatter]( https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**，`Ctrl` + `Shift` + `P` 輸入 format -> **Format Document...** 文件格式化方式
 	>MacOS : `alt + shift + f` 會格式化在prettier 中設定的格式
-	>settings.json -> "prettier.singleQuote": true
-	>在檔案中添加.prettierrc.yaml 的設定檔案(可以設定每個人的格式化)
+	>settings.json -> 加入 `"prettier.singleQuote": true`
+	>在檔案中添加.[prettierrc.yaml 的設定檔案](https://prettier.io/docs/en/options.html)(可以設定每個人的格式化)
 
 
 
 
--   [ ] 專案同文字多選
-1. 選取文字後，再按 `Ctrl + D` 會把選取的相同文字，逐一選取反白，再一次修改
+#### 專案同文字多選
+1. 選取文字後，再按 `Ctrl + D` 會把選取的相同文字，逐一選取反白後，再一次一起修改
 2. 選取文字後，再按 `F2` 就可以修改文字，會連同相同的文字一併修改
 
 
 
--   [ ] 程式碼片段移動
+#### 程式碼片段移動
 alt + arrow UP/DOWN key can move current line
 option + arrow key in MacOS
 會跟著縮排移動
 
--   [ ] 拼錯字嗎？你不尷尬就換別人尷尬了
+#### 拼字檢查
 1. Extension: [Code Spelling Checker for VSCode](https://github.com/streetsidesoftware/vscode-spell-checker)
-	>+ ![[bandicam 2022-04-21 01-50-23-805.png]]
-	>+ ![[bandicam 2022-04-21 01-50-34-860.png]]
-	>+ ![[bandicam 2022-04-21 01-50-36-684.png]]
-	>+ ![[bandicam 2022-04-21 01-54-26-558.png]]
-	>+ ![[bandicam 2022-04-21 01-54-32-230.png]]
-	>+ ![[bandicam 2022-04-21 01-54-51-902.png]]
-	>+ ![[bandicam 2022-04-21 01-54-55-318.png]]
-	>+ ![[bandicam 2022-04-21 01-54-57-846.png]]
-	>+ ![[bandicam 2022-04-21 01-55-20-176.png]]
 
-- [ ] 縮排辨識
+
+####  縮排辨識
 [indent-rainbow](https://github.com/oderwat/vscode-indent-rainbow)
 
 
 #### 為括號上色
-- [ ]  為括號上色
-- [ ]  Braket Pair Colorizer 2 (Deprecated)
-- [ ] VSocde 內建 (August 2021 (version 1.60))
-	
-`Ctrl + ,` 或  開啟設定>**File -> Preferences - ->settings json -> 加上 High performance bracket pair colorization提到的 json
-	```jsx
-		"editor.bracketPairColorization.enabled": true
-	```
+- Braket Pair Colorizer 2 (Deprecated) - VSCode 已內建，因此這個應用程式棄用了
+- 使用 VSocde 內建 (August 2021 (version 1.60))
+	`Ctrl + ,` 或  開啟設定>**File -> Preferences - ->settings json -> 加上 High performance bracket pair colorization提到的 json
 
-##### 更改括號顏色
-	
-![[bandicam 2022-04-21 02-35-11-732.png]]
+```jsx
+	"editor.bracketPairColorization.enabled": true
+```
 
-![[bandicam 2022-04-21 02-35-42-666.png]]
 
-![[bandicam 2022-04-21 02-33-23-423.png]]
 
-![[bandicam 2022-04-21 02-33-35-647.png]]
+- 自訂括號顏色(待補圖)
+	1. settings.json 搜尋 Bracket 
+	2. 找到 Editor > Bracket Pair Colorization: Enabled
+	3. 點選 Workbench: Color Customizations
+	4. 跳到 Color Customizations 點選 Edit in settings.json 
+	5. 輸入 Bracket 在選單中找到 `"editorBracketHighlight.foreground1"` ~ `        "editorBracketHighlight.foreground6` 可設定六層顏色。
+
+
 	
 ##### 為括號上色參考資料
 >+ [Visual Studio Code August 2021 | High performance bracket pair colorization](https://code.visualstudio.com/updates/v1_60#_high-performance-bracket-pair-colorization)
@@ -204,8 +181,8 @@ option + arrow key in MacOS
 
 
 ### Code Snippet
-- [ ] [VS Code Snippet Generator](https://marketplace.visualstudio.com/items?itemName=dkultasev.vs-code-snippet-generator)
-- Click Manage icon (= Gear icon at the bottom left ) -> User snippet -> **javascript.json**
+- Extension:  [VS Code Snippet Generator](https://marketplace.visualstudio.com/items?itemName=dkultasev.vs-code-snippet-generator)
+- VsCode 內建方式，Click **Manage icon (= Gear icon at the bottom left ) -> User snippet -> javascript.json**
 
 在`javascript.json`檔案中加入參考 Example 所做的以下 `Query Selector` 的自訂JSON片段
 ```jsx
@@ -261,46 +238,31 @@ option + arrow key in MacOS
 
 
 #### 片段程式碼抽取成函式
-1. 選取要重構的程式碼片段，鍵盤按 `Ctrl + .` -> Extract to in global scope ->語義化命名新的function name -> Enter (參數再局部修改)
+1. 選取要重構的程式碼片段，鍵盤按 `Ctrl + .` -> Extract to in global scope ->語義化命名新的 function name -> Enter (參數再局部修改)
 2. 或 滑鼠按右鍵，選重構 refactor -> Extract to in global scope ->語義化命名新的function name -> Enter (參數再局部修改)
 
 
-index.html
+**index.html**
 ```html
 
 <!DOCTYPE html>
 
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Document</title>
-
 </head>
 
 <body>
-
     <button id="product1">noodle + 1</button>
-
     <button id="product2">spaghetti + 1</button>
-
     <button id="product3">Kimchi + 1</button>
 
-  
-
-  
 
     <button id="removeProduct">移除最後一個品項</button>
-
     <script src="./all.js">
-
-  
 
     </script>
 
@@ -313,119 +275,84 @@ index.html
 
 
 
-all.js
+**all.js**
 ```javascript
 const products = [
-
     {
-
         name: "noodle",
-
         price: 100,
-
     },
 
     {
-
         name: "spaghetti",
-
         price: 120,
-
     },
 
     {
-
         name: "Kimchi",
-
         price: 115,
-
     },
-
 ];
 
   
 
 let shoppingCart = [];
-
 let total = 0;
 
   
   
 
 const productBtn1 = document.querySelector("#product1");
-
 const productBtn2 = document.querySelector("#product2");
-
 const productBtn3 = document.querySelector("#product3");
-
 const removeProductBtn = document.querySelector("#removeProduct");
 
   
 
 productBtn1.addEventListener("click", () => {
-
     shoppingCart.push(products[0]);
-
     total = shoppingCart.reduce((pre, curr) => {
-
         return pre + curr.price;
-
     }, 0);
-
     console.log(shoppingCart, total);
-
 });
 
   
   
 
 productBtn2.addEventListener("click", () => {
-
     shoppingCart.push(products[1]);
-
     total = shoppingCart.reduce((pre, curr) => {
-
         return pre + curr.price;
-
     }, 0);
-
     console.log(shoppingCart, total);
-
 });
 
   
 
 productBtn3.addEventListener("click", () => {
-
     shoppingCart.push(products[2]);
-
     sumTotal();
-
 });
 
   
   
 
 removeProductBtn.addEventListener("click", () => {
-
     shoppingCart.pop();
-
     total = shoppingCart.reduce((pre, curr) => {
-
         return pre + curr.price;
-
     }, 0);
-
     console.log(shoppingCart, total);
-
 });
 
 
 ```
 
 
-#### **改成**
-index.html
+#### **重構改成**
+
+**index.html**
 ```html
 
 <!DOCTYPE html>
@@ -459,75 +386,53 @@ index.html
 
 
 
-methods.js
+**methods.js**
 ```javascript
 
-  
 
 const products = [
-
     {
-
         name: "noodle",
-
         price: 100,
-
     },
 
     {
-
         name: "spaghetti",
-
         price: 120,
-
     },
 
     {
-
         name: "Kimchi",
-
         price: 115,
-
     },
-
 ];
 
   
 
 let shoppingCart = [];
-
 let total = 0;
 
   
   
 
 export function addToCart(num) {
-
     shoppingCart.push(products[num]);
-
 }
 
   
   
 
 export function removeFromCart() {
-
     shoppingCart.pop();
-
 }
 
   
 
 export function sumTotal() {
-
     total = shoppingCart.reduce((pre, curr) => {
-
         return pre + curr.price;
-
     }, 0);
-
     console.log(shoppingCart, total);
-
 }
 
 ```
@@ -535,101 +440,49 @@ export function sumTotal() {
 
 
 
-all.js
+**all.js**
 ```javascript
 
+import { removeFromCart, addToCart, sumTotal } from "./methods.js";
 const productBtn1 = document.querySelector("#product1");
-
 const productBtn2 = document.querySelector("#product2");
-
 const productBtn3 = document.querySelector("#product3");
-
 const removeProductBtn = document.querySelector("#removeProduct");
 
   
 
 productBtn1.addEventListener("click", () => {
-
     addToCart(0);
-
-    sumTotal();
-
-  
-
+    sumTotal(); 
 });
 
-  
-  
 
 productBtn2.addEventListener("click", () => {
-
     addToCart(1);
-
     sumTotal();
-
-});
-
-  
+});  
 
 productBtn3.addEventListener("click", () => {
-
     addToCart(2);
-
     sumTotal();
-
 });
-
-  
-  
+ 
 
 removeProductBtn.addEventListener("click", () => {
-
     removeFromCart();
-
     sumTotal();
-
 });
 
-  
-
-function removeFromCart() {
-
-    shoppingCart.pop();
-
-}
-
-  
-
-function addToCart(num) {
-
-    shoppingCart.push(num);
-
-}
-
-  
-
-function sumTotal() {
-
-    total = shoppingCart.reduce((pre, curr) => {
-
-        return pre + curr.price;
-
-    }, 0);
-
-    console.log(shoppingCart, total);
-
-}
 
 ```
 
 
 #### 註解最佳化技巧
->跳出提示
+>**跳出提示**
 
-JS 文件格式  -> 輸入`/` + `**` 就會自動生成
+**JS 文件格式註解**  -> 輸入`/` + `**` 就會自動生成
 ```javascript
-
-  
+ 
 
 /**
 
@@ -659,7 +512,6 @@ const products = [
         name: "Kimchi",
         price: 115,
     },
-
 ];
 
   
@@ -671,11 +523,8 @@ let total = 0;
   
 
 /**
-
  * function add to cart~~~
-
  * @param {Number} num Parameter num is Product ID
-
  */
 
 export function addToCart(num) {
@@ -685,9 +534,7 @@ export function addToCart(num) {
   
 
 /**
-
  * remove from Cart
-
  */
 
 export function removeFromCart() {
