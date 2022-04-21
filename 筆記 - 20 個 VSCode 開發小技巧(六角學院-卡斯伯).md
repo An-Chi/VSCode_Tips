@@ -109,7 +109,7 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 ---
 
 ####  在 JS 片段使用 emmet
-`Ctrl` + `,`  **開啟設定  settings 工具  -> settings json -> 貼上下方的  json 片段**, 這樣就可以在JS檔案中使用 Emmet，有益於VueJS, ReactJS開發
+`Ctrl` + `,`  **開啟設定  settings 工具  -> settings.json -> 貼上下方的  json 片段**, 這樣就可以在JS檔案中使用 Emmet，有益於VueJS, ReactJS開發
 >在JS檔案中，輸入 `p` + **tab key** 會變成  `<p></p>`
 
 ```jsx
@@ -134,11 +134,11 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 2. 4spaces
 3. tab
 4. Extension: Prettier - Code formatter
->開發專案中，每個人格式不一致，可使用這個 extension 設定存檔轉換成同一個規範格式，這樣在使用Git 版控時就不會時常發生衝突。
->有安裝  **Extension: [Prettier - Code formatter]( https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**，`Ctrl` + `Shift` + `P` 輸入 format -> **Format Document...** 文件格式化方式
-	>MacOS : `alt + shift + f` 會格式化在prettier 中設定的格式
-	>settings.json -> 加入 `"prettier.singleQuote": true`
-	>在檔案中添加.[prettierrc.yaml 的設定檔案](https://prettier.io/docs/en/options.html)(可以設定每個人的格式化)
+5. 開發專案中，每個人格式不一致，可使用 Prettier - Code formatter 設定存檔轉換成同一個規範格式，這樣在使用Git 版控時就不會時常發生衝突。
+6. 有安裝  **Extension: [Prettier - Code formatter]( https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)**，`Ctrl` + `Shift` + `P` 輸入 `format`-> **Format Document... 文件格式化方式**
+7. MacOS : `alt + shift + f` 會格式化在 prettier 中設定的格式
+8. settings.json -> 加入 `"prettier.singleQuote": true`，就可以將比如 `console.log("xxx")` 轉成 `console.log('xxx')`
+9. 在檔案中添加.[prettierrc.yaml 的設定檔案](https://prettier.io/docs/en/options.html)(可以設定每個人的格式化)
 
 
 ---
