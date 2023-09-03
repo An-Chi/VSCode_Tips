@@ -8,8 +8,7 @@ title: 筆記 - 20 個 VSCode 開發小技巧(六角學院-卡斯伯)
 
 
 #### 筆記內容
-主要參考自 六角學院卡斯伯老師的教學
-20 個 VSCode 開發小技巧，讓你 Coding 三倍速！
+主要參考自 六角學院卡斯伯老師的教學: 20 個 VSCode 開發小技巧，讓你 Coding 三倍速！
 - 部落格：[](https://www.casper.tw/)[https://www.casper.tw/](https://www.casper.tw/)
 - 文件連結：[](https://hex.school/w5FJv)[https://hex.school/w5FJv](https://hex.school/w5FJv)
 - video：[](https://youtu.be/LOjUnXk_TNU)[https://youtu.be/LOjUnXk_TNU](https://youtu.be/LOjUnXk_TNU)
